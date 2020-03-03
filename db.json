@@ -1,0 +1,119 @@
+{
+  "users": [{
+    "name": "Client1",
+    "partners": [
+      "Client2",
+      "Client3",
+      "Parther1"
+    ]
+  },
+    {
+      "name": "Client2",
+      "partners": [
+        "Client1"
+      ]
+    },
+    {
+      "name": "Client3",
+      "partners": [
+        "Client1",
+        "Partner1"
+      ]
+    }, {
+      "name": "Partner1",
+      "partners": [
+        "Client1",
+        "Client3"
+      ]
+    }
+  ],
+  "contracts": [{
+    "id": 1,
+    "creator": "Client1",
+    "partner": "Partner1",
+    "date": "21.03.2019",
+    "price": 1200.00,
+    "statusMap": [{
+      "title": "opened",
+      "date": "21.03.2019 17:45"
+    },
+      {
+        "title": "status1",
+        "date": "21.03.2019 17:59"
+      },
+      {
+        "title": "closed",
+        "date": "22.03.2019 08:05"
+      }
+    ],
+    "comments": [{
+      "creator": "Client1",
+      "text": "Opened for discussion",
+      "date": "21.03.2019 17:50"
+    },
+      {
+        "creator": "Client1",
+        "text": "Changed price from 1100 to 1200",
+        "date": "21.03.2019 18:00"
+      }, {
+        "creator": "Partner1",
+        "text": "Accepted the deal",
+        "date": "22.03.2019 08:00"
+      }
+    ],
+    "files": [{
+      "title": "File1",
+      "date": "21.03.2019 17:45"
+    },
+      {
+        "title": "File2",
+        "date": "21.03.2019 17:45"
+      }
+    ]
+  },
+    {
+      "id": 2,
+      "creator": "Client2",
+      "partner": "Client1",
+      "date": "25.03.2019",
+      "price": 2400.00,
+      "statusMap": [{
+        "title": "opened",
+        "date": "25.03.2019 09:30"
+      },
+        {
+          "title": "status1",
+          "date": "26.03.2019 13:40"
+        },
+        {
+          "title": "status2",
+          "date": "26.03.2019 17:25"
+        },
+        {
+          "title": "status3",
+          "date": "26.03.2019 17:59"
+        }
+      ],
+      "comments": [{
+        "creator": "Client2",
+        "text": "Opened for discussion",
+        "date": "25.03.2019 09:30"
+      },
+        {
+          "creator": "Client1",
+          "text": "Changed price from 1100 to 1200",
+          "date": "26.03.2019 13:40"
+        }
+      ],
+      "files": [{
+        "title": "File1",
+        "date": "26.03.2019 13:40"
+      },
+        {
+          "title": "File2",
+          "date": "26.03.2019 13:40"
+        }
+      ]
+    }
+  ]
+}
