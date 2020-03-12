@@ -1,4 +1,9 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [readme](README.md)
+* [Test](test.md)
+
+## Docs
+
+* [Scenarios](docs/scen1.md)
 
