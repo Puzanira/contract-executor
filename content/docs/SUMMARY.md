@@ -4,5 +4,3 @@
 
 ## Docs
 
-* [Authentication tokens](authentication-tokens.md)
-
