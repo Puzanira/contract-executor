@@ -36,3 +36,15 @@ Needed to param
 {% endapi-method-spec %}
 {% endapi-method %}
 
+{% tabs %}
+{% tab title="First Tab" %}
+Is there a tab on markdown?
+{% endtab %}
+
+{% tab title="Second Tab" %}
+Second
+{% endtab %}
+{% endtabs %}
+
+
+
